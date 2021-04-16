@@ -1,0 +1,82 @@
+:root {
+  --clr-primary-highlight-text: hsl(39, 100%, 61%);
+  --clr-primary-highlight-dark-text: hsl(29, 100%, 55%);
+  --clr-primary-400: #baf5ce;
+  --clr-primary-700: rgb(0, 55, 156);
+  --clr-bg-container: hsla(0, 0%, 100%, 0.95);
+  --ff-primary: "Nunito", sans-serif;
+  --ff-accent: "Baloo Tamma 2", cursive;
+  --clr-mobile-primary-header: hsl(33, 91%, 78%);
+  --clr-mobile-primary-navy--500: hsl(227, 35%, 22%);
+  --clr-mobile-primary-navy--800: hsl(227, 25%, 22%);
+  --clr-mobile-primary-gray--500: hsl(235, 10%, 30%);
+}
+.promotion-wrapper {
+  background-color: var(--clr-mobile-primary-header);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.promotion__image-wrapper {
+  padding: 1rem;
+}
+.promotion__announcement {
+  background-color: var(--clr-bg-container);
+  color: white;
+  margin: 2rem 0 2rem;
+  padding: 0.75rem;
+  border-radius: 5rem;
+  background-color: var(--clr-mobile-primary-navy--500);
+  box-shadow: 0 0 16px 2px hsl(227, 50%, 60%, 0.5);
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  text-align: center;
+}
+.promotion__announcement a {
+  color: white;
+}
+.promotion__images {
+  max-width: 100%;
+  box-shadow: 0 0 16px 2px hsl(227, 50%, 60%, 0.5);
+  border: 0.05rem solid hsl(227, 50%, 20%, 0.3);
+  border-radius: 0.3rem;
+}
+.promotion__images__banner {
+  max-height: 357px;
+  max-width: 428px;
+  max-width: 100%;
+  box-shadow: 0 0 16px 2px hsl(227, 50%, 60%, 0.5);
+  border: 0.05rem solid hsl(227, 50%, 20%, 0.3);
+  border-radius: 0.3rem;
+}
+.barbets__email {
+  text-align: center;
+  background-color: var(--clr-mobile-primary-navy--500);
+  box-shadow: 0 0 10px 1px hsl(227, 50%, 60%, 0.5);
+  border-radius: 5rem;
+  padding: 0.75rem;
+  color: white;
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  margin: 1rem 0 1rem;
+}
+.barbets__email a {
+  color: white;
+}
+@media only screen and (max-width: 880px) {
+  .promotion__announcement {
+    margin-inline: 2rem;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .barbets__email {
+    margin-inline: 2rem;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .barbets__email {
+    width: 20rem;
+  }
+}

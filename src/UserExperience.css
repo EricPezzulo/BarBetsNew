@@ -1,0 +1,58 @@
+:root {
+  --clr-primary-highlight-text: hsl(39, 100%, 61%);
+  --clr-primary-highlight-dark-text: hsl(29, 100%, 55%);
+  --clr-primary-400: #baf5ce;
+  --clr-primary-700: rgb(0, 55, 156);
+  --clr-bg-container: hsla(0, 0%, 100%, 0.95);
+  --ff-primary: "Nunito", sans-serif;
+  --ff-accent: "Baloo Tamma 2", cursive;
+  --clr-mobile-primary-header: hsl(33, 91%, 78%);
+  --clr-mobile-primary-navy--500: hsl(227, 35%, 22%);
+  --clr-mobile-primary-navy--800: hsl(227, 25%, 22%);
+  --clr-mobile-primary-gray--500: hsl(235, 10%, 30%);
+}
+
+.userExperience {
+  background-color: var(--clr-mobile-primary-navy--800);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 3rem 0 3rem;
+}
+
+.userExperience__title {
+  color: white;
+  font-size: 3rem;
+  font-family: var(--ff-accent);
+  font-weight: 700;
+  text-align: center;
+}
+.userEperience__description {
+  color: white;
+  font-size: 1.625rem;
+  font-family: var(--ff-primary);
+  text-align: center;
+  padding-inline: 2rem;
+}
+.userExperience__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  padding: 2rem;
+}
+.userExperience__pic {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+  .userEperience__description {
+    margin-inline: auto;
+    width: min(90%, 65rem);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .userExperience__title {
+    font-size: 2.2rem;
+  }
+}

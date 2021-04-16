@@ -1,0 +1,52 @@
+:root {
+  --clr-primary-highlight-text: hsl(39, 100%, 61%);
+  --clr-primary-highlight-dark-text: hsl(29, 100%, 55%);
+  --clr-primary-400: #baf5ce;
+  --clr-primary-700: rgb(0, 55, 156);
+  --clr-bg-container: hsla(0, 0%, 100%, 0.95);
+  --ff-primary: "Nunito", sans-serif;
+  --ff-accent: "Baloo Tamma 2", cursive;
+  --clr-mobile-primary-header: hsl(33, 91%, 78%);
+  --clr-mobile-primary-navy--500: hsl(227, 35%, 22%);
+  --clr-mobile-primary-navy--800: hsl(227, 25%, 22%);
+  --clr-mobile-primary-gray--500: hsl(235, 10%, 30%);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-mobile-primary-header);
+  padding: 5rem 0 3rem;
+}
+.header__image {
+  margin-inline: auto;
+  padding-bottom: 3rem;
+  max-width: 100%;
+}
+.header__title {
+  font-family: var(--ff-accent);
+  font-size: 3rem;
+  font-weight: 900;
+  padding-inline: 2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+@media only screen and (min-width: 900px) {
+  .header__title {
+    margin-inline: auto;
+    width: min(90%, 75rem);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    padding: 2rem 0 2rem;
+  }
+  .header__image {
+    padding-bottom: 1.5rem;
+  }
+  .header__title {
+    font-size: 2.2rem;
+    line-height: 1;
+  }
+}
