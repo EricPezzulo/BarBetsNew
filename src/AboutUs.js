@@ -35,12 +35,10 @@ function AboutUs () {
             </div>
             <div className="aboutUs__elem">
                 <p>
-                    All prizes are strictly the owners choice! The easier the bet the smaller the prize.  Looking to challenge your customers? Make the bet more difficult and offer a bigger reward to truly put their sports knowledge to the test. Below are some examples of bets that have worked in preliminary trials.
-                        <span className="list-items">
-                            <ul>&bull; Who will score the <strong>first</strong> touchdown?</ul>
-                            <ul>&bull; Who will hit the <strong>first</strong> homerun tonight? (Bet is a loss if no one hits a homerun)</ul>
-                            <ul>&bull; What will the final score be?</ul>
-                        </span>
+                    All prizes are strictly the owners choice! The easier the bet the smaller the prize.  Looking to challenge your customers? Make the bet more difficult and offer a bigger reward to truly put their sports knowledge to the test. Below are some examples of bets that have worked in preliminary trials.  
+                        <ul>&bull; Who will score the <strong>first</strong> touchdown?</ul>
+                        <ul>&bull; Who will hit the <strong>first</strong> homerun tonight? (Bet is a loss if no one hits a homerun)</ul>
+                        <ul>&bull; What will the final score be?</ul>                   
                 </p>
             </div>
             <div className="aboutUs__elem">
