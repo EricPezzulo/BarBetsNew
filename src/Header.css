@@ -15,8 +15,10 @@
   display: flex;
   flex-direction: column;
   background-color: var(--clr-mobile-primary-header);
+
   padding: 5rem 0 3rem;
 }
+
 .header__image {
   margin-inline: auto;
   padding-bottom: 3rem;

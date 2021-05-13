@@ -12,15 +12,21 @@
   --clr-mobile-primary-gray--500: hsl(235, 10%, 30%);
 }
 .aboutUs {
+  display: grid;
+  place-items: center;
+  height: auto;
   background-color: var(--clr-mobile-primary-navy--500);
   color: white;
-  font-size: 1.35rem;
+  font-size: 24px;
   font-family: var(--ff-primary);
   line-height: 2;
 }
+
+.aboutUs__container {
+  width: 80%;
+  max-width: 1200px;
+}
 .aboutUs__elem {
-  margin-inline: auto;
-  width: min(85%, 75rem);
   padding: 1rem 0 1rem;
 }
 .aboutUs__elem ul {
