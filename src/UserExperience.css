@@ -13,13 +13,12 @@
 }
 
 .userExperience {
-  width: 100vw;
   height: auto;
   background-color: var(--clr-mobile-primary-navy--800);
   background-color: rgb(44, 44, 44);
   display: grid;
   place-items: center;
-  padding: 3rem 0 3rem;
+  padding: 2rem 0 3rem;
 }
 .uxContainer {
   display: flex;

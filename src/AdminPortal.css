@@ -15,13 +15,14 @@
   background-color: var(--clr-mobile-primary-gray--500);
   display: grid;
   place-items: center;
-  width: 100vw;
   height: auto;
+  padding: 2rem 0 3rem;
 }
 .adContainer {
   width: 90%;
 }
 .adminPortal__title {
+  margin-top: 2rem;
   color: white;
   font-size: 3rem;
   font-family: var(--ff-accent);

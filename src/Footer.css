@@ -19,4 +19,5 @@
   font-size: 1.25rem;
   border-top: 0.002rem solid hsl(0, 0%, 77%);
   font-family: var(--ff-primary);
+  width: 100vw;
 }
