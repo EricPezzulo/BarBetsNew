@@ -16,7 +16,7 @@ function AboutUs() {
         </div>
         <div className="aboutUs__elem">
           <p>
-            <span className="highlight-text">How it works:</span>The
+            <span className="highlight-text">How it works:</span> The
             administrative portal is a website for bar owners to log on and post
             a promotion. This allows the bar owner to get creative by offering a
             wager for a straight, parlay, over/under or a prop bet. To ensure
