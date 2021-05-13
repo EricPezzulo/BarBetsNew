@@ -23,6 +23,8 @@
 .uxContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 90%;
 }
 
@@ -32,6 +34,8 @@
   font-family: var(--ff-accent);
   font-weight: 700;
   text-align: center;
+  line-height: 1.1;
+  margin-bottom: 1rem;
 }
 .userEperience__description {
   color: white;
@@ -39,6 +43,7 @@
   font-family: var(--ff-primary);
   text-align: center;
   padding-inline: 2rem;
+  max-width: 1220px;
 }
 .userExperience__grid {
   display: flex;

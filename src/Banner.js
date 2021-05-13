@@ -4,9 +4,11 @@ import "./Banner.css";
 function Banner() {
   return (
     <div className="banner">
-      <i class="fab fa-instagram"></i> &nbsp;
-      <span>Follow us at @barbets_app</span> &nbsp;
-      <i class="fab fa-instagram"></i>
+      <a href="https://www.instagram.com/barbets_app/" alt="BarBets Instagram">
+        <i class="fab fa-instagram"></i> &nbsp;
+        <span>Follow us at @barbets_app</span> &nbsp;
+        <i class="fab fa-instagram"></i>
+      </a>
     </div>
   );
 }
