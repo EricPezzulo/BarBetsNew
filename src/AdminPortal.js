@@ -14,10 +14,16 @@ function AdminPortal() {
         </p>
         <div className="adminPortal__grid">
           <div className="adminPortal__pic">
-            <img src="./assets/adminportal/website1.JPG" />
+            <img
+              src="./assets/adminportal/website1.JPG"
+              alt="BarBets Admin Portal view 1"
+            />
           </div>
           <div className="adminPortal__pic">
-            <img src="./assets/adminportal/website2.JPG" />
+            <img
+              src="./assets/adminportal/website2.JPG"
+              alt="BarBets Admin Portal view 2"
+            />
           </div>
         </div>
       </div>

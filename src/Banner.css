@@ -6,4 +6,11 @@
   font-family: var(--ff-primary);
   background-color: #f7f7f7;
   color: rgb(83, 83, 83);
+  text-align: center;
+}
+
+@media screen and (max-width: 330px) {
+  .banner {
+    font-size: 1.15rem;
+  }
 }

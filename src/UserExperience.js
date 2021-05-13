@@ -14,34 +14,64 @@ function UserExperience() {
         </p>
         <div className="userExperience__grid">
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/first.JPG" />
+            <img
+              src="./assets/userexperience/first.JPG"
+              alt="BarBets app view 1"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/second.JPG" />
+            <img
+              src="./assets/userexperience/second.JPG"
+              alt="BarBets app view 2"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/third.JPG" />
+            <img
+              src="./assets/userexperience/third.JPG"
+              alt="BarBets app view 3"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/fourth.JPG" />
+            <img
+              src="./assets/userexperience/fourth.JPG"
+              alt="BarBets app view 4"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/five.JPG" />
+            <img
+              src="./assets/userexperience/five.JPG"
+              alt="BarBets app view 5"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/six.JPG" />
+            <img
+              src="./assets/userexperience/six.JPG"
+              alt="BarBets app view 6"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/seven.JPG" />
+            <img
+              src="./assets/userexperience/seven.JPG"
+              alt="BarBets app view 7"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/eight.JPG" />
+            <img
+              src="./assets/userexperience/eight.JPG"
+              alt="BarBets app view 8"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/nine.JPG" />
+            <img
+              src="./assets/userexperience/nine.JPG"
+              alt="BarBets app view 9"
+            />
           </div>
           <div className="userExperience__pic">
-            <img src="./assets/userexperience/ten.JPG" />
+            <img
+              src="./assets/userexperience/ten.JPG"
+              alt="BarBets app view 10"
+            />
           </div>
         </div>
       </div>
