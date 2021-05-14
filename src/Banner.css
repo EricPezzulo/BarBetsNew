@@ -4,14 +4,16 @@
   justify-content: center;
   font-size: 1.35em;
   font-family: var(--ff-primary);
-  background-color: #f7f7f7;
+  background-color: hsla(44, 100%, 54%, 0.5);
   color: rgb(83, 83, 83);
   text-align: center;
   text-decoration: none;
+  height: 40px;
+  border-bottom: 1px solid rgb(184, 184, 184);
 }
 .banner a {
   text-decoration: none;
-  color: rgb(83, 83, 83);
+  color: rgb(75, 75, 75);
 }
 
 @media screen and (max-width: 330px) {

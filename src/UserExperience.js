@@ -1,3 +1,4 @@
+import Separator from "./Separator";
 import "./UserExperience.css";
 
 function UserExperience() {
@@ -74,6 +75,7 @@ function UserExperience() {
             />
           </div>
         </div>
+        <Separator />
       </div>
     </div>
   );

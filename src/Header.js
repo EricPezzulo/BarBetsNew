@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import Separator from "./Separator";
 
 function Header() {
   return (
@@ -13,6 +14,7 @@ function Header() {
           discounts or promotions to your customers.
         </h2>
       </div>
+      <Separator />
     </header>
   );
 }

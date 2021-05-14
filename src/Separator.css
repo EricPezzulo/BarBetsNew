@@ -1,0 +1,10 @@
+.seperator {
+  height: 3px;
+  background-color: rgb(185, 185, 185);
+  width: 80%;
+  max-width: 1220px;
+  margin-inline: auto;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

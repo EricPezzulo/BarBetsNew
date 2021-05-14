@@ -12,11 +12,12 @@
   --clr-mobile-primary-gray--500: hsl(235, 10%, 30%);
 }
 .adminPortal {
-  background-color: var(--clr-mobile-primary-gray--500);
+  /* background-color: var(--clr-mobile-primary-gray--500); */
+  background-color: whitesmoke;
   display: grid;
   place-items: center;
   height: auto;
-  padding: 2rem 0 3rem;
+  /* padding: 2rem 0 3rem; */
 }
 .adContainer {
   display: flex;
@@ -26,7 +27,7 @@
   align-items: center;
 }
 .adminPortal__title {
-  color: white;
+  color: #323232;
   font-size: 3rem;
   font-family: var(--ff-accent);
   font-weight: 700;
@@ -35,7 +36,7 @@
   margin-bottom: 1rem;
 }
 .adminPortal__description {
-  color: white;
+  color: rgb(59, 59, 59);
   font-size: 1.625rem;
   font-family: var(--ff-primary);
   text-align: center;
@@ -50,12 +51,14 @@
 .adminPortal__pic {
   max-width: 1000px;
   object-fit: contain;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .adminPortal__pic img {
   width: 100%;
   object-fit: contain;
   border-radius: 5px;
+  border: 2px solid rgba(128, 128, 128, 0.534);
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.27);
 }
 
 @media only screen and (max-width: 500px) {

@@ -1,5 +1,6 @@
 import "./AdminPortal.css";
 import React from "react";
+import Separator from "./Separator";
 
 function AdminPortal() {
   return (
@@ -26,6 +27,7 @@ function AdminPortal() {
             />
           </div>
         </div>
+        <Separator />
       </div>
     </div>
   );

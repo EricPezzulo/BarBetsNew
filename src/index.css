@@ -1,5 +1,6 @@
 /* font-family: 'Nunito', sans-serif; */
 /* font-family: 'Baloo Tamma 2', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600&family=Nunito+Sans&family=Nunito:wght@300;400;700&display=swap");
 :root {
   --clr-primary-highlight-text: hsl(39, 100%, 61%);
@@ -9,6 +10,7 @@
   --clr-bg-container: hsla(0, 0%, 100%, 0.95);
   --ff-primary: "Nunito", sans-serif;
   --ff-accent: "Baloo 2", cursive;
+  --ff-opensans: "Open Sans", sans-serif;
   --clr-mobile-primary-header: hsl(33, 91%, 78%);
   --clr-mobile-primary-navy--500: hsl(227, 35%, 22%);
   --clr-mobile-primary-navy--800: hsl(227, 25%, 22%);

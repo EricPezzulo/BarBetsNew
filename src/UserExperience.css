@@ -15,10 +15,11 @@
 .userExperience {
   height: auto;
   background-color: var(--clr-mobile-primary-navy--800);
-  background-color: rgb(44, 44, 44);
+  background-color: whitesmoke;
+  /* background-color: rgb(44, 44, 44); */
   display: grid;
   place-items: center;
-  padding: 2rem 0 3rem;
+  padding-top: 1rem;
 }
 .uxContainer {
   display: flex;
@@ -29,7 +30,7 @@
 }
 
 .userExperience__title {
-  color: white;
+  color: #323232;
   font-size: 3rem;
   font-family: var(--ff-accent);
   font-weight: 700;
@@ -38,7 +39,7 @@
   margin-bottom: 1rem;
 }
 .userEperience__description {
-  color: white;
+  color: #323232;
   font-size: 1.625rem;
   font-family: var(--ff-primary);
   text-align: center;
