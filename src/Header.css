@@ -16,7 +16,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: var(--clr-mobile-primary-header); */
   background-color: hsl(0, 0%, 96%);
   padding-top: 3rem;
   color: #323232;
@@ -53,7 +52,7 @@
 
 @media only screen and (max-width: 500px) {
   .header {
-    padding: 2rem 0 2rem;
+    padding-bottom: 1px;
   }
   .header__image {
     padding-bottom: 1.5rem;

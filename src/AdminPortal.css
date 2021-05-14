@@ -12,12 +12,10 @@
   --clr-mobile-primary-gray--500: hsl(235, 10%, 30%);
 }
 .adminPortal {
-  /* background-color: var(--clr-mobile-primary-gray--500); */
   background-color: whitesmoke;
   display: grid;
   place-items: center;
   height: auto;
-  /* padding: 2rem 0 3rem; */
 }
 .adContainer {
   display: flex;

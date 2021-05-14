@@ -15,7 +15,6 @@
   display: grid;
   place-items: center;
   height: auto;
-  /* background-color: var(--clr-mobile-primary-navy--500); */
   background-color: whitesmoke;
   color: #323232;
   font-size: 24px;
