@@ -42,8 +42,16 @@ function ContactUs() {
         >
           <i class="fab fa-instagram"></i>
         </a>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook-f"></i>
+        <a href="https://www.twitter.com" target="_blank" alt="BarBets Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          alt="BarBets Facebook"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
       </div>
     </div>
   );

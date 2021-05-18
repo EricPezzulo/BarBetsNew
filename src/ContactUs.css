@@ -93,7 +93,7 @@
 .contactUs__socialIcons a {
   text-decoration: none;
   color: rgb(105, 105, 105);
-  transition: 250ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 .contactUs__socialIcons a:hover {
   filter: drop-shadow(1px 1px 1px);
