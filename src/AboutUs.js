@@ -1,4 +1,5 @@
 import "./AboutUs.css";
+import Separator from "./Separator";
 
 function AboutUs() {
   return (
@@ -78,6 +79,7 @@ function AboutUs() {
             barbets.net and receive free BarBet coasters!
           </p>
         </div>
+        <Separator />
       </div>
     </div>
   );

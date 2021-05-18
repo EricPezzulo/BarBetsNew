@@ -6,6 +6,7 @@ import AdminPortal from "./AdminPortal";
 import Footer from "./Footer";
 import AboutUs from "./AboutUs";
 import Banner from "./Banner";
+import ContactUs from "./ContactUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <UserExperience />
       <AdminPortal />
       <AboutUs />
+      <ContactUs />
       <Footer />
     </div>
   );

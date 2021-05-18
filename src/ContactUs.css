@@ -1,0 +1,90 @@
+.contactUs__container {
+  background-color: rgb(224, 224, 224);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactUs__title {
+  font-family: var(--ff-primary);
+  color: #3b3b3b;
+  font-size: xx-large;
+  margin-bottom: 2rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.emailInput input {
+  width: 395px;
+  font-family: var(--ff-primary);
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  padding-inline: 5px;
+  outline: none;
+  color: #3b3b3b;
+}
+.messageInput {
+  margin-top: 10px;
+}
+.messageInput textarea {
+  font-family: var(--ff-primary);
+  resize: vertical;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #3b3b3b;
+  outline: none;
+  width: 395px;
+  height: 175px;
+}
+.btn {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: white;
+  color: rgb(55, 55, 55);
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  transition: 350ms ease-in-out;
+}
+.btn button:hover {
+  background-color: #ffdf89;
+  color: #616161;
+  border: 2px solid #e2c576;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 414px) {
+  .messageInput textarea {
+    width: 80vw;
+  }
+  .emailInput input {
+    width: 80vw;
+  }
+}
