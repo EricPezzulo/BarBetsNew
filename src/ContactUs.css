@@ -2,8 +2,9 @@
   background-color: rgb(224, 224, 224);
   padding: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .contactUs {
@@ -39,10 +40,11 @@
   color: #3b3b3b;
 }
 .messageInput {
-  margin-top: 10px;
+  margin-top: 1.5rem;
 }
 .messageInput textarea {
   font-family: var(--ff-primary);
+  font-size: 16px;
   resize: vertical;
   border: none;
   border-radius: 5px;
@@ -78,6 +80,23 @@
   color: #616161;
   border: 2px solid #e2c576;
   cursor: pointer;
+}
+.contactUs__socialIcons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 400px;
+  color: rgb(105, 105, 105);
+}
+.contactUs__socialIcons a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  transition: 250ms ease-in-out;
+}
+.contactUs__socialIcons a:hover {
+  filter: drop-shadow(1px 1px 1px);
 }
 
 @media only screen and (max-width: 414px) {

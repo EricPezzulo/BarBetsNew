@@ -34,6 +34,17 @@ function ContactUs() {
           </div>
         </form>
       </div>
+      <div className="contactUs__socialIcons">
+        <a
+          href="https://www.instagram.com/barbets_app/"
+          target="_blank"
+          alt="BarBets Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+      </div>
     </div>
   );
 }
