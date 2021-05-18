@@ -7,7 +7,7 @@ function ContactUs() {
         <h2 className="contactUs__title">Contact Us</h2>
         <form
           className="contactForm"
-          action="72b011a7b2fab9a3ae2782f89237fdf3"
+          action="https://formsubmit.co/72b011a7b2fab9a3ae2782f89237fdf3"
           method="post"
         >
           <div className="emailInput">
